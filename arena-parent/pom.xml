@@ -7,13 +7,13 @@
 	</parent>
 	<groupId>uqbar</groupId>
 	<artifactId>arena-parent</artifactId>
-	<version>1.1</version>
+	<version>1.2-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<scm>
-		<connection>scm:svn:http://xp-dev.com/svn/uqbar/projects/parents/arena-parent/tags/arena-parent-1.1</connection>
-		<developerConnection>scm:svn:http://xp-dev.com//svn/uqbar/projects/parents/arena-parent/tags/arena-parent-1.1</developerConnection>
-		<url>scm:svn:http://xp-dev.com/svn/uqbar/projects/parents/arena-parent/tags/arena-parent-1.1</url>
+		<connection>scm:svn:http://xp-dev.com/svn/uqbar/projects/parents/arena-parent/trunk</connection>
+		<developerConnection>scm:svn:http://xp-dev.com//svn/uqbar/projects/parents/arena-parent/trunk</developerConnection>
+		<url>scm:svn:http://xp-dev.com/svn/uqbar/projects/parents/arena-parent/trunk</url>
 	</scm>
 		
 	<properties>
