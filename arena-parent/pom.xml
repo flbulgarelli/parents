@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<artifactId>uqbar-parent-project</artifactId>
+		<groupId>uqbar</groupId>
+		<version>1.6</version>
+	</parent>
+	<groupId>uqbar</groupId>
+	<artifactId>arena-parent</artifactId>
+	<version>1.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<scm>
+		<connection>scm:svn:http://xp-dev.com/svn/uqbar/projects/parent/trunk</connection>
+		<developerConnection>scm:svn:http:/xp-dev.com//svn/uqbar/projects/parent/trunk</developerConnection>
+		<url>scm:svn:http://xp-dev.com/svn/uqbar/projects/parent/trunk</url>
+	</scm>
+		
+	<properties>
+		<arena-version>3.0.1-SNAPSHOT</arena-version>
+	</properties>
+
+	<modules>
+		<module>../util-commons</module>
+		<module>../apo-core</module>
+		<module>../poo</module>
+		<module>../pot</module>
+		<module>../arena</module>
+	</modules>
+</project>
