@@ -1,18 +1,24 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	
+
 	<parent>
 		<groupId>uqbar</groupId>
 		<artifactId>arena-parent</artifactId>
 		<version>1.1</version>
 	</parent>
-	
+
 	<groupId>uqbar</groupId>
 	<artifactId>apo-parent</artifactId>
 	<version>1.0</version>
 	<packaging>pom</packaging>
 	<description>	</description>
+	
+	<scm>
+		<connection>scm:svn:http://xp-dev.com/svn/uqbar/projects/parents/apo-parent/tags/apo-parent-1.0</connection>
+		<developerConnection>scm:svn:http://xp-dev.com//svn/uqbar/projects/parents/apo-parent/tags/apo-parent-1.0</developerConnection>
+		<url>scm:svn:http://xp-dev.com/svn/uqbar/projects/parents/apo-parent/tags/apo-parent-1.0</url>
+	</scm>
 
 	<dependencies>
 		<!-- SCALA -->
