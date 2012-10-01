@@ -1,14 +1,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
+	<artifactId>arena-parent</artifactId>
+	<version>1.2-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
 	<parent>
-		<artifactId>uqbar-parent-project</artifactId>
 		<groupId>uqbar</groupId>
+		<artifactId>uqbar-parent-project</artifactId>
 		<version>1.6</version>
 	</parent>
-	<groupId>uqbar</groupId>
-	<artifactId>arena-parent</artifactId>
-	<version>1.1</version>
-	<packaging>pom</packaging>
 
 	<scm>
 		<connection>scm:svn:http://xp-dev.com/svn/uqbar/projects/parents/arena-parent/tags/arena-parent-1.1</connection>
